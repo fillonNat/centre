@@ -1,0 +1,117 @@
+@charset "utf-8";
+body {
+	background: url(images/fondabstract.jpg);
+	scrollbar-face-color:#9C2929;
+scrollbar-highlight-color:#F6CA96;
+scrollbar-3dlight-color:#FBC774;
+scrollbar-darkshadow-color:#885504;
+scrollbar-shadow-color:#AB6B05;
+scrollbar-arrow-color:#054F87;
+scrollbar-track-color:#054F87;
+}
+
+body, td, th {
+	color: #FFCC99;
+}
+
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:30px;
+	color: #006;
+	text-align:center;
+	font-style:italic;
+}
+
+h2 {
+	color: #FF99CC;
+}
+
+h3, h4 {
+	color: #CC9999;
+}
+
+h5, h6 {
+	color: #FFCCCC;
+}
+
+a {
+	color: #000;
+}
+
+form {
+	background-color: #990000;
+}
+
+#title
+{
+	height: 150px;
+	background: url(images/titre2.jpg);
+	margin: auto;
+	text-align:center;
+	padding-top: 20px;
+	width: 864px;
+	  }
+		  
+a + ul
+{
+	text-align:left;
+	text-decoration:none;
+	}
+.button {
+   margin: 2px;
+   border-top: 1px solid #b02323;
+   background: #cf7240;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d15223), to(#cf7240));
+   background: -webkit-linear-gradient(top, #d15223, #cf7240);
+   background: -moz-linear-gradient(top, #d15223, #cf7240);
+   background: -ms-linear-gradient(top, #d15223, #cf7240);
+   background: -o-linear-gradient(top, #d15223, #cf7240);
+   padding: 2px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   width:200px;
+   }
+  
+.button:hover {
+   border-top-color: #d97223;
+   background: #d97223;
+   color: #000055;
+   }
+.button:active {
+   border-top-color: #de8038;
+   background: #de8038;
+   }
+
+		
+textarea { font-family: verdana, arial, helvetica, sans-serif; }
+
+.Style1 {
+	color: #000066;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Style2 {
+	color: #FF0000;
+	font-weight: bold;
+	font-style: italic;
+	font-size: large;
+}
+.Style4 {
+	color: #000066;
+	font-style: italic;
+}
+.Style5 {color: #000066}
+.Style6 {
+	color: #0033CC;
+	font-style: italic;
+}
+.Style7 {font-size: medium}
