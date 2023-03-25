@@ -38,12 +38,4 @@ if (input.checked) {
   changerEtatMenu()
 }
 
-// Pour animer les menus secondaires (pages)
- 
-let menu = document.querySelector(".menu-item1");
-let mainItem = document.querySelector(".menu-item-Main1");
 
-mainItem.addEventListener("click", () => {
-  menu.className = "menu-itemB";
-
-});
